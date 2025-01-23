@@ -15,4 +15,4 @@ split_part(transaction_code,'-',1) as "Transaction letter"
 ,sum(value)
 from PD2023_WK01
 where "Transaction letter" = 'DSB'
-group by  "Online or In-Person", "Transaction letter", NewDate, Quarters)
+group by  "Online or In-Person", "Transaction letter", NewDate, Quarters) 
